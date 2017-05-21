@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # local variable
-CWD="/home/dnlab/WorkLogger"
+CWD="/home/userid/guseokguseok"
 WLAN=""
 
 # check variable
@@ -23,7 +23,6 @@ ifconfig ${WLAN} up
 
 # start scan
 cd ${CWD}
-source ./bin/activate
 cd ./src/classscanner
 python3 class_scanner.py
 
